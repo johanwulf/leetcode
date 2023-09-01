@@ -46,3 +46,6 @@ Instead of sorting the two strings, giving us the time complexity of O(n log n),
 3. For each letter in the strings, add 1 to the count
 4. Compare the two dictionaries and return the result
 ```
+
+**Time complexity**
+The time complexity will be O(n) as we loop through the length of the strings.
