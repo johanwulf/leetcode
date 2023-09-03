@@ -1,7 +1,8 @@
 from collections import defaultdict
+from typing import List
 
-class Solution(object):
-    def groupAnagrams(self, strs):
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         """
         :type strs: List[str]
         :rtype: List[List[str]]

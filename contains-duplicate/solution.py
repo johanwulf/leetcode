@@ -1,5 +1,7 @@
-class Solution(object):
-    def containsDuplicate(self, nums):
+from typing import List
+
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
         """
         :type nums: List[int]
         :rtype: bool
